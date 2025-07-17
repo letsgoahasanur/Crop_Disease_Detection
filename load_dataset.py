@@ -1,3 +1,5 @@
+# This function loads and preprocesses the plant leaf images for training and testing
+
 import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
