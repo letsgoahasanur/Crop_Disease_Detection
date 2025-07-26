@@ -12,6 +12,6 @@ transform = transforms.Compose([
 ])
 print("Torchvision transform loaded!")
 
-plt.plot([1, 2, 3], [1, 4, 9])
+plt.plot([1, 8, 3], [1, 5, 9])
 plt.title("Matplotlib Test Plot")
 plt.show()

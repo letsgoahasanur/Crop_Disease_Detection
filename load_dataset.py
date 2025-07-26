@@ -24,6 +24,7 @@ train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
+
 print(f"Train samples: {len(train_dataset)}")
 print(f"Test samples: {len(test_dataset)}")
 print(f"Number of classes: {len(dataset.classes)}")
